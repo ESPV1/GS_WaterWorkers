@@ -11,7 +11,7 @@ export function tecnologiesDescription() {
         "GitHub é uma plataforma de hospedagem de código baseada em Git, usada para versionamento e colaboração em projetos de software.",
         "Python é uma linguagem de programação versátil e de alto nível, usada em automação, web, ciência de dados e inteligência artificial."
     ];
-
+ 
     tecnologiasCards.forEach((card, index) => {
         card.addEventListener('mouseenter', () => {
             descriptionArea.textContent = descriptions[index];
