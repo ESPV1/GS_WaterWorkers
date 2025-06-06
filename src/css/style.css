@@ -145,6 +145,33 @@ section { padding: 0 5%; }
     font-weight: 600;
 }
 
+#objetivos {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+
+#objetivosText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 31vw;
+}
+
+#objetivos img,
+#beneficios img {
+    width: 40%;
+}
+
+#slideshow {
+  transition: opacity .5s ease-in-out;
+  opacity: 1;
+}
+
 #objetivosText .blockTitle,
 #impactados .blockTitle, 
 #impactados p:nth-child(2) {
