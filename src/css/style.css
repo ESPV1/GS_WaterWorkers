@@ -1,0 +1,103 @@
+html,
+body,
+section {
+    overflow-x: hidden;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+section { padding: 0 5%; }
+#tecnologias {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tecnologiasInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vw;
+    padding: 8% 0;
+}
+
+#tecnologiasInfo .blockTitle {
+    margin-bottom: 2vw;
+}
+
+#tecnologiasInfo #subtitle {
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+#objetivosText .blockTitle,
+#impactados .blockTitle, 
+#impactados p:nth-child(2) {
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+#objetivosText .blockTitle,
+#objetivosText p:nth-child(2) {
+    text-align: start;
+}
+#groupCards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 32%;
+    width: 100%;
+}
+#groupCards .tecnologiaCard:nth-child(7) {
+    grid-column: 2;
+}
+
+#groupCards .tecnologiaCard:hover {
+    scale: 1.02;
+}
+
+#groupCards .tecnologiaCard img { width: 60%; }
+
+.tecnologiaCard {
+    display: flex;
+    width: 12.5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: .35s ease;
+}
+
+.tecnologiaCard img{
+    width: 10%;
+}
+
+#groupCards .tecnologiaCard:nth-child(7) {
+    grid-column: 2;
+}
+
+#groupCards .tecnologiaCard:hover {
+    scale: 1.02;
+}
+
+.lightCardBorder, .rainCardBorder {
+    border: 2px solid #00000070;
+}
+
+.blockTitle {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+#tecnologiasInfo .blockTitle {
+    margin-bottom: 2vw;
+}
+
+#descriptionArea {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
