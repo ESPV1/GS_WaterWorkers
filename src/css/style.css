@@ -5,6 +5,75 @@ section {
     min-width: 100vw;
     min-height: 100vh;
 }
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 0 5%;
+    width: 100%;
+    height: 6vw;
+    z-index: 3;
+    transition: background-color 0.3s ease, backdrop-selector 0.3s ease;
+}
+
+#logo { width: 5%; }
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2vw;
+}
+
+nav ul li { list-style: none; }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+nav ul li a:hover { opacity: 0.8; }
+
+section { padding: 0 5%; }
+
+.switch-tema {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.switch-tema {
+    display: flex;
+    gap: 1.2rem; 
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.switch-tema button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 0;
+}
+
+.switch-tema button:hover {
+    transform: scale(1.2);
+}
+
+.iconTheme {
+    width: 32px;
+    height: 32px; 
+}
 
 #problema {
     position: relative;
