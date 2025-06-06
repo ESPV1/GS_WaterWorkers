@@ -5,6 +5,49 @@ section {
     min-width: 100vw;
     min-height: 100vh;
 }
+
+#problema {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background-image: url('../assets/imgs/problema.jpg');
+    background-size: 111%;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    z-index: 0;
+}
+
+#problema .posLeft {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    padding-top: 5vw
+}
+
+#problema .posLeft {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#problema p {
+    line-height: 2;
+    font-weight: semi-bold;
+}
+
+#impactfulPhrase {
+    font-weight: normal;
+    text-align: start;
+    font-size: 4vw;
+    margin-bottom: 3vw;
+}
+
+.textSub{
+    font-size: 1.05em;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
 section { padding: 0 5%; }
 #tecnologias {
     display: flex;
