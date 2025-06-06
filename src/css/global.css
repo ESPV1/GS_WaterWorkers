@@ -41,3 +41,7 @@ html{ scroll-behavior: smooth; }
     position: relative;
     z-index: 2;
 }
+
+.lightText {
+    color: white;
+}
