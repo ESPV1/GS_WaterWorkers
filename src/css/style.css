@@ -129,6 +129,36 @@ section { padding: 0 5%; }
 
 #beneficios .blockTitle{ margin-bottom: 2vw; }
 
+#solucao {
+    position: relative;
+    display: flex;
+    align-items: flex-end; /* Alinha conteúdo à direita verticalmente */
+    justify-content: center; /* Mantém vertical centralizado */
+    flex-direction: column;
+    background-image: url('../assets/imgs/solution.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 10%;
+    padding-right: 5%; /* Espaçamento da borda direita */
+}
+
+#solucao img {
+    width: 80%;
+}
+
+.solucaoText {
+    width: 50%;
+    text-align: right; /* Alinha todo o conteúdo da div à direita */
+}
+
+#solucao .blockTitle {
+    text-align: right; /* Título à direita */
+    margin-bottom: 3vw;
+}
+
+#solucao p {
+    text-align: right; /* Parágrafos à direita */
+}
 
 #groupCards {
     display: flex;
