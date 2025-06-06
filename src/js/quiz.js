@@ -1,4 +1,4 @@
-import { quizData } from "./quizData.js";
+import { quizData } from "./quizDados.js";
 
 export function quiz() {
   const quizContainer = document.getElementById("quizDiv");
