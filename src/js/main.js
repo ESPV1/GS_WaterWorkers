@@ -1,7 +1,5 @@
 import { quiz } from "./quiz.js"
+import { tecnologiesDescription } from "./cards.js";
 
-toggleTheme();
-slideshow();
 tecnologiesDescription();
-headerChange();
 quiz();
