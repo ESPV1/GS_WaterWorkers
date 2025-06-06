@@ -48,6 +48,29 @@ section {
     line-height: 1.7;
 }
 
+#objetivosText .blockTitle,
+#impactados .blockTitle, 
+#impactados p:nth-child(2) {
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+#objetivosText .blockTitle,
+#objetivosText p:nth-child(2) {
+    text-align: start;
+}
+
+#impactados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-image: url('../assets/imgs/impactos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
 section { padding: 0 5%; }
 #tecnologias {
     display: flex;
@@ -144,3 +167,4 @@ section { padding: 0 5%; }
     font-size: 1.4vw;
     font-weight: 600;
 }
+
