@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Solução de bueiros inteligentes com monitoramento em tempo real para prevenir alagamentos e otimizar a gestão urbana.">
+    <meta name="keywords"
+        content="bueiros inteligentes, IoT, sensores, monitoramento urbano, alagamentos, cidades inteligentes">
+    <meta name="author" content="Adrian Souza, Camila Martins e Gabriel Amara">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="src/css/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="src/assets/img/logo-clear.png" type="image/png">
+    <title>Water Workers</title>
+</head>
+
+<body>
+    <main>
+        <section id="tecnologias">
+            <div id="tecnologiasInfo">
+                <span class="blockTitle">tecnologias Utilizadas</span>
+                <div id="groupCards">
+                    <div class="tecnologiaCard lightCardBorder">
+                        <img src="src/assets/svgs/c.svg" alt="C">
+                    </div>
+                    <div class="tecnologiaCard lightCardBorder">
+                        <img id="wokwi" src="src/assets/imgs/wokwi-night.png" alt="Wokwi">
+                    </div>
+                    <div class="tecnologiaCard lightCardBorder">
+                        <img src="src/assets/svgs/html5.svg" alt="HTML5">
+                    </div>
+                    <div class="tecnologiaCard lightCardBorder">
+                        <img src="src/assets/svgs/css3.svg" alt="CSS3">
+                    </div>
+                    <div class="tecnologiaCard lightCardBorder">
+                        <img src="src/assets/svgs/js.svg" alt="JavaScript">
+                    </div>
+                    <div class="tecnologiaCard lightCardBorder">
+                        <img id="github" src="src/assets/svgs/night-github.svg" alt="GitHub">
+                    </div>
+                    <div class="tecnologiaCard lightCardBorder">
+                        <img src="src/assets/svgs/python.svg" alt="Python">
+                    </div>
+                </div>
+                <div id="updateDescription">
+                    <p id="descriptionArea">
+                        Saiba mais ao passar o mouse sobre o card!
+                    </p>
+                    <p class="textSub"></p>
+                </div>
+            </div>
+        </section>
+        <section id="quiz">
+            <div class="quizBox">
+                <h2 class="quizQuestion">Você Está Preparado para uma Enchente?</h2>
+                <p class="quizInfo">Responda todas as perguntas e veja se você está preparado!</p>
+                <form id="quizPanel">
+                    <div id="quizDiv"></div>
+                    <button type="submit" class="buttonSubmit">Enviar Respostas</button>
+                </form>
+                <div id="finalResult" class="finalResult"></div>
+            </div>
+        </section>
+    </main>
+    
+    <script type="module" src="src/js/main.js"></script>
+</body>
+
+</html>
