@@ -16,9 +16,5 @@ export function tecnologiesDescription() {
         card.addEventListener('mouseenter', () => {
             descriptionArea.textContent = descriptions[index];
         });
-
-        // card.addEventListener('mouseleave', () => {
-        //     descriptionArea.textContent = ''; // ou alguma mensagem padrão
-        // });
     });
 }
