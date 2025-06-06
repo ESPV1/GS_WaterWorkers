@@ -12,3 +12,32 @@ body{
 
 html{ scroll-behavior: smooth; }
 
+.selector::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.lightText {
+    color: white;
+}
+
+.clear::after{
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.medium::after{
+    background-color: rgba(0, 0, 0, 0.548);
+}
+.strong::after{
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.selector>* {
+    position: relative;
+    z-index: 2;
+}
