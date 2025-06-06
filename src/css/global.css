@@ -45,3 +45,29 @@ html{ scroll-behavior: smooth; }
 .lightText {
     color: white;
 }
+.inter { font-family: 'Inter'; }
+
+.alert-color {
+    color: #ff9502;
+}
+
+.lightText {
+    color: white;
+}
+
+.nightText {
+    color: #000;
+}
+
+.clearBg {
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.glassBg {
+    background: rgba(255, 255, 255, 0.055);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-selector: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.041);
+}
